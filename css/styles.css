@@ -1,0 +1,25 @@
+
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Axiforma', sans-serif;
+    text-decoration: none;
+    line-height: 1.6rem;
+    list-style: none;
+    overflow: none;
+
+}
+
+:root{
+    --dark-color:#000;
+} 
+
+
+/* navigation bar */
+nav{
+    background-color: var(--dark-color);
+    border-bottom: 1px solid black;
+}
+
