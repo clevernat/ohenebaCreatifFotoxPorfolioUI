@@ -9,6 +9,10 @@
       href="images/ohenebaofficiallogo.png"
       type="image/x-icon"
     />
+    
+    <!-- animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- font size -->
     <link href="http://fonts.cdnfonts.com/css/axiforma" rel="stylesheet" />
 
@@ -21,9 +25,6 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="css/styles.css" />
-
-    <!-- animate on scroll -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Oheneba Creatif Fotox | Home</title>
   </head>
@@ -70,7 +71,7 @@
 
     <!-- showcase -->
     <main class="showcase">
-      <div class="showcase-content">
+      <div data-aos="fade-right" class="showcase-content">
         <div>
           <p class="showcase-btn">Hello, I am </p>
           <h1 class="showcase-name">OHENEBA</h1>
@@ -88,10 +89,13 @@
 
         </div>
       </div>
-      <div class="showcase-img">
+      <div  data-aos="fade-left" class="showcase-img">
         <!-- <img src="images/pic.png" alt="oheneba-img" /> -->
       </div>
     </main>
+
+     <!-- animate on scroll js -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- bootstrap js -->
     <script
@@ -100,8 +104,7 @@
       crossorigin="anonymous"
     ></script>
 
-     <!-- animate on scroll js -->
-     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <!-- js -->
     <script src="app.js"></script>
 
