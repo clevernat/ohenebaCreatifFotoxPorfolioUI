@@ -10,6 +10,9 @@
       type="image/x-icon"
     />
 
+    <!-- lightbox css -->
+    <link href="css/lightbox.css" rel="stylesheet" />
+
     <!-- animate on scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -42,7 +45,7 @@
       <div class="overlay">
         <nav class="navbar navbar-expand-lg navbar-dark py-3">
           <div class="container">
-            <a class="navbar-brand ms-2" href="#">
+            <a class="navbar-brand ms-2" href="index.html">
               <img
                 src="images/ohenebaofficiallogo.png"
                 alt=""
@@ -64,18 +67,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item mx-3">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="index.html"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item mx-3">
-                  <a class="nav-link" aria-current="page" href="#">Skills</a>
+                  <a class="nav-link" aria-current="page" href="skill.html">Skills</a>
                 </li>
                 <li class="nav-item mx-3">
-                  <a class="nav-link" aria-current="page" href="#">Projects</a>
+                  <a class="nav-link" aria-current="page" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item ms-3">
-                  <a class="nav-link" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
@@ -91,13 +94,23 @@
               <p>A Professional Graphic Designer</p>
             </div>
             <div class="showcase-btn">
-              <button class="btn-1">
-                <a href="#">My Works</a>
-              </button>
+              <!-- <button class="btn-1">
+                <a href="#projects">My Works</a>
+              </button> -->
+              <a href="#projects">
+                <button class="btn-1">
+                  My Works
+                </button>
+              </a>
 
-              <button class="btn-2">
-                <a href="#">Hire Me</a>
-              </button>
+              <!-- <button class="btn-2">
+                <a href="#contacts">Hire Me</a>
+              </button> -->
+              <a href="#contacts">
+                <button class="btn-2">
+                  Hire Me
+                </button>
+              </a>
             </div>
           </div>
           <div data-aos="fade-left" class="showcase-img">
@@ -162,11 +175,6 @@
       </div>
     </section>
 
-
-
-
-
-
     <!-- PROJECTS -->
     <section id="projects" class="overall">
       <div class="head skills-headers">
@@ -184,7 +192,9 @@
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              FLIERS
+              <span class="accordian-icon"
+                ><i class="fas fa-arrow-circle-down"></i> FLIERS
+              </span>
             </button>
           </h2>
           <div
@@ -200,11 +210,17 @@
                 <!-- one -->
                 <div class="one">
                   <div>
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/flyer/adepa_applique.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/flyer/adepa_applique.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/flyer/adepa_applique.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -224,7 +240,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -235,11 +251,17 @@
                 <!-- two -->
                 <div class="one">
                   <div>
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/flyer/AJ.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/flyer/AJ.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/flyer/AJ.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -259,7 +281,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -270,11 +292,17 @@
                 <!-- three -->
                 <div class="one">
                   <div class="d-block">
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/flyer/Appreciation.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/flyer/Appreciation.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/flyer/Appreciation.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -294,7 +322,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -303,7 +331,7 @@
                 </div>
               </div>
               <div class="view-all">
-                <a href="#">
+                <a href="fliers.html">
                   <button class="btn btn-lg">
                     <span><i class="fab fa-readme"></i></span> View All
                   </button>
@@ -323,7 +351,9 @@
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              LOGO
+              <span class="accordian-icon"
+                ><i class="fas fa-arrow-circle-down"></i> LOGO</span
+              >
             </button>
           </h2>
           <div
@@ -339,11 +369,17 @@
                 <!-- one -->
                 <div class="one">
                   <div>
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/logo/JC-logo.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/logo/JC-logo.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/logo/JC-logo.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -363,7 +399,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -374,11 +410,17 @@
                 <!-- two -->
                 <div class="one">
                   <div>
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/logo/DH_walllogo.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/logo/DH_walllogo.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/logo/DH_walllogo.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -398,7 +440,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -409,11 +451,17 @@
                 <!-- three -->
                 <div class="one">
                   <div class="d-block">
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/logo/Praba 3D_ logo.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/logo/Praba 3D_ logo.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/logo/Praba 3D_ logo.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -433,7 +481,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -442,7 +490,7 @@
                 </div>
               </div>
               <div class="view-all">
-                <a href="#">
+                <a href="logos.html">
                   <button class="btn btn-lg">
                     <span><i class="fab fa-readme"></i></span> View All
                   </button>
@@ -461,7 +509,9 @@
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              CARTOON
+              <span class="accordian-icon"
+                ><i class="fas fa-arrow-circle-down"></i> CARTOON</span
+              >
             </button>
           </h2>
           <div
@@ -471,18 +521,23 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              
-               <!-- logo cards -->
+              <!-- logo cards -->
 
-               <div class="main-card">
+              <div class="main-card">
                 <!-- one -->
                 <div class="one">
                   <div>
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/cartoon/15th cartoon.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/cartoon/15th cartoon.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/cartoon/15th cartoon.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -502,7 +557,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -513,11 +568,17 @@
                 <!-- two -->
                 <div class="one">
                   <div>
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/cartoon/nanaafua review.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/cartoon/nanaafua review.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/cartoon/nanaafua review.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -537,7 +598,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -548,11 +609,17 @@
                 <!-- three -->
                 <div class="one">
                   <div class="d-block">
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/cartoon/hayford.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/cartoon/hayford.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/cartoon/hayford.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -572,7 +639,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -581,13 +648,12 @@
                 </div>
               </div>
               <div class="view-all">
-                <a href="#">
+                <a href="cartoon.html">
                   <button class="btn btn-lg">
                     <span><i class="fab fa-readme"></i></span> View All
                   </button>
                 </a>
               </div>
-
             </div>
           </div>
         </div>
@@ -601,7 +667,9 @@
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              OTHERS
+              <span class="accordian-icon"
+                ><i class="fas fa-arrow-circle-down"></i> OTHERS
+              </span>
             </button>
           </h2>
           <div
@@ -611,19 +679,23 @@
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              
-              
-               <!-- logo cards -->
+              <!-- logo cards -->
 
-               <div class="main-card">
+              <div class="main-card">
                 <!-- one -->
                 <div class="one">
                   <div>
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/others/oheneba1.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/others/oheneba1.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/others/oheneba1.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -643,7 +715,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -654,11 +726,17 @@
                 <!-- two -->
                 <div class="one">
                   <div>
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/others/750ML-front(Banana).png"
-                      alt="img"
-                    />
+                    <a
+                      href="images/others/750ML-front(Banana).png"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/others/750ML-front(Banana).png"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -678,7 +756,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -689,11 +767,17 @@
                 <!-- three -->
                 <div class="one">
                   <div class="d-block">
-                    <img
-                      class="image-fluid img-thumbnail mb-3"
-                      src="images/others/christmas.jpg"
-                      alt="img"
-                    />
+                    <a
+                      href="images/others/christmas.jpg"
+                      target="_blanck"
+                      data-lightbox="roadtrip"
+                    >
+                      <img
+                        class="image-fluid img-thumbnail mb-3"
+                        src="images/others/christmas.jpg"
+                        alt="img"
+                      />
+                    </a>
                   </div>
                   <div class="name">
                     <div>
@@ -713,7 +797,7 @@
                     </div>
                   </div>
                   <div class="readmore-btn">
-                    <a href="#">
+                    <a href="single.html">
                       <button>
                         <span><i class="fab fa-readme"></i></span> Read More
                       </button>
@@ -722,57 +806,109 @@
                 </div>
               </div>
               <div class="view-all">
-                <a href="#">
+                <a href="others.html">
                   <button class="btn btn-lg">
                     <span><i class="fab fa-readme"></i></span> View All
                   </button>
                 </a>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </section>
 
-
-
-
     <!-- contact -->
-    <section class="contact overall">
+    <section id="contacts" class="contact overall">
       <div class="skills-header">
         <h1 class="text-center">GET IN TOUCH</h1>
       </div>
-      <div>
+      <hr class="hr-2" />
+      <div class="contact-form">
         <form>
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+            <input
+              type="text"
+              class="form-control shadow-none"
+              id="name"
+              name="name"
+              autocomplete="off"
+              placeholder="Name"
+            />
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+            <input
+              type="email"
+              class="form-control shadow-none"
+              id="email"
+              name="email"
+              autocomplete="off"
+              placeholder="Email"
+            />
           </div>
           <div class="mb-3">
             <label for="name" class="form-label">Phone</label>
-            <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone">
+            <input
+              type="number"
+              class="form-control shadow-none"
+              id="phone"
+              name="phone"
+              autocomplete="off"
+              placeholder="Phone"
+            />
           </div>
           <div class="mb-3">
             <label for="name" class="form-label">Message</label>
             <!-- <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp"> -->
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-
+            <textarea
+              class="shadow-none"
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              autocomplete="off"
+              placeholder="Message"
+            ></textarea>
           </div>
-          
-          <button type="submit" class="btn btn-primary">Send</button>
+
+          <button type="submit" class="contact-btn">Send</button>
         </form>
       </div>
     </section>
 
-
-
-
-
+    <!-- footer -->
+    <footer class="overall">
+      <div class="social-media">
+        <div class="follow-me">
+          <small>Let's Connect !</small>
+        </div>
+        <div class="media-fb">
+          <a href="#">
+            <span><i class="fab fa-facebook-square"></i></span>
+          </a>
+        </div>
+        <div class="media-wa">
+          <a href="#">
+            <span><i class="fab fa-whatsapp"></i></span>
+          </a>
+        </div>
+        <div class="media-ig">
+          <a href="#">
+            <span><i class="fab fa-instagram"></i></span>
+          </a>
+        </div>
+        <div class="media-li">
+          <a href="#">
+            <span><i class="fab fa-linkedin"></i></span>
+          </a>
+        </div>
+        <div class="dates">
+          <small>&copy; <span class="insert-date"></span></small>
+        </div>
+      </div>
+    </footer>
 
     <!-- animate on scroll js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -784,7 +920,16 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- lightbox js -->
+    <script src="js/lightbox.js"></script>
     <!-- js -->
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
