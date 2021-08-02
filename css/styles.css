@@ -10,13 +10,16 @@
   overflow: none;
 }
 
+
 html, body{
   scroll-behavior: smooth;
 }
 
+
 a {
   text-decoration: none;
 }
+
 
 :root {
   --dark-color: #000;
@@ -27,11 +30,6 @@ a {
   --pink: #f561cd;
 }
 
-/* navigation bar */
-/* nav{
-  position: sticky;
-  top: 10px;
-} */
 
 .bg-img {
   background: url("../images/pattern.jpg") no-repeat center center/cover;
@@ -44,7 +42,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  /* z-index: 1; */
   background-color: rgba(0, 0, 0, 0.65);
   
 }
@@ -124,6 +122,21 @@ button.btn-2 a {
   margin-right: 5rem;
 }
 
+@media(max-width:321px){
+  h1.showcase-name{
+    font-size: 3.4rem;
+  }
+
+  .showcase-btn a button.btn-1, .showcase-btn a button.btn-2{
+    padding: 0.75rem 1.5rem;
+  }
+
+  .font-icon a i{
+    margin: 2.8rem 0 0 0;
+  }
+  
+}
+
 @media (max-width: 1024px) {
   .showcase {
     display: flex;
@@ -142,20 +155,12 @@ button.btn-2 a {
   .showcase-img {
     margin-right: 0.1rem;
   }
-
-  /* .bg-img, .overlay{
-    height: 101.4vh;
-  } */
 }
 
 @media (max-width: 1024px) and (min-width: 501px) {
   .showcase-img {
     margin-right: 0.5rem;
   }
-
-  /* .bg-img, .overlay{
-    height: 98vh;
-  } */
 }
 
 /* SKILLS */
@@ -168,7 +173,6 @@ button.btn-2 a {
 }
 
 .skill-text2{
-  /* text-align: justify; */
   padding: 0 3rem 0 0;
 }
 
