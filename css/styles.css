@@ -681,9 +681,13 @@ footer{
  
   .font-icon{
     position: relative;
-    bottom: 1132px;
-    margin-left: 0.3rem;
+    bottom: 1350px;
+    margin-left: 0.1rem;
   }
+
+  /* .font-icon i{
+    color: red;
+  } */
 
  
 
@@ -729,7 +733,7 @@ footer{
 @media(max-width:376px){
   .font-icon{
     position: relative;
-    bottom: 1122px;
+    bottom: 1339px;
     margin-left: 0.1rem;
   }
 
@@ -738,10 +742,23 @@ footer{
 @media(max-width:361px){
   .font-icon{
     position: relative;
-    bottom: 1109px;
+    bottom: 1325px;
     margin-left: 0.1rem;
   }
 
+}
+
+
+@media(max-width:1025px) and (min-width:767px){
+  .font-icon{
+    position: relative;
+    bottom: 1660px;
+    margin-left: 0.1rem;
+  }
+
+  /* .font-icon i{
+    color: red;
+  } */
 }
 
 

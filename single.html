@@ -195,17 +195,27 @@
         </div>
         <hr>
         <h4 class="fw-bold">FEEDBACK</h4>
+       
+        <p class="lead">100% Positive Feedback (1 vote)</p>
         
-        <form action="" method="POST">
-          <!-- <div>
-            <label for="">Leave Comment Below</label>
+        <form action="">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control shadow-none" id="name" autocomplete="off">
           </div>
-          <div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="All comments would be seen by "></textarea>
-          </div> -->
+
+          <div class="mb-3">
+            <label for="comments" class="form-label">Place your vote</label>
+            <select class="form-select shadow-none" aria-label="Default select example">
+              <option selected>------</option>
+              <option value="1">Up Vote</option>
+              <option value="2">Down Vote</option>
+              
+            </select>
+          </div>
           <div class="">
-            <label for="comments" class="form-label">Leave Comment Below</label>
-            <textarea class="form-control shadow-none" id="comments" placeholder="All comments would be seen only by the owner." cols="30"  rows="10"></textarea>
+            <label for="comments" class="form-label">Add a comment</label>
+            <textarea class="form-control shadow-none" id="comments" cols="30"  rows="10"></textarea>
           </div>
 
           <button type="submit" class="contact-btn my-3">Comment</button>
