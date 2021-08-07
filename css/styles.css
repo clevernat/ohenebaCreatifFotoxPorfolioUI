@@ -122,7 +122,7 @@ button.btn-2 a {
   margin-right: 5rem;
 }
 
-@media(max-width:321px){
+@media(max-width:322px){
   h1.showcase-name{
     font-size: 3.4rem;
   }
@@ -597,8 +597,6 @@ footer{
 
 
 
-
-
 /* ALL FLIERS */
 .overall-more{
   margin-top: 1.5rem;
@@ -613,6 +611,7 @@ footer{
   .font-icon a{
     padding: 0 0 0 0.6rem;
   }
+
 }
 
 
@@ -682,13 +681,12 @@ footer{
  
   .font-icon{
     position: relative;
-    bottom: 720px;
+    bottom: 1132px;
     margin-left: 0.3rem;
   }
 
-  /* .font-icon i {
-    color: red;
-  } */
+ 
+
   
 
   footer .follow-me small{
@@ -724,45 +722,26 @@ footer{
   .font-icon{
     position: relative;
     bottom: 810px;
-    margin-left: 0.3rem;
+    margin-left: 0.1rem;
   }
-
-  /* .font-icon i {
-    color: red;
-  } */
-  
-/* 
-  footer .follow-me small{
-    display: none;
-  }
-  
-  .follow-me small{
-    display: none;
-  } */
 }
 
 @media(max-width:376px){
   .font-icon{
     position: relative;
-    bottom: 700px;
-    margin-left: 0.3rem;
+    bottom: 1122px;
+    margin-left: 0.1rem;
   }
 
-  /* .font-icon i {
-    color: red;
-  } */
 }
 
 @media(max-width:361px){
   .font-icon{
     position: relative;
-    bottom: 690px;
-    margin-left: 0.3rem;
+    bottom: 1109px;
+    margin-left: 0.1rem;
   }
-/* 
-  .font-icon i {
-    color: red;
-  } */
+
 }
 
 
@@ -782,16 +761,39 @@ footer{
 
 
 
+/* pagination */
+.paginationEdit{
+  margin: 2rem auto;
+  max-width: 100px;
+}
 
 
-/* arrow top */
-/* .topdown{
-  position: sticky;
-  bottom: 0px;
-  font-size: 2rem;
-  background-color: var(--light-white-color);
-  color: red;
+
+.paginations {
   display: flex;
-  justify-content: flex-end;
-  padding: 0 3rem 0 0;
-} */
+  justify-content: center;
+  margin: 2.5rem 0;
+}
+
+
+.paginations a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+
+.paginations a.active {
+  background-color: var(--blue);
+  color: white;
+  border: 1px solid var(--blue);
+}
+
+.paginations a:hover:not(.active) {background-color: #ddd;}
+
+textarea::placeholder{
+  text-indent: 0.55rem;
+}
