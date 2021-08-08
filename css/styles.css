@@ -143,6 +143,7 @@ button.btn-2 a {
     margin: 2.8rem 0 0 0;
   }
   
+  
 }
 
 @media(max-width:321px){
@@ -150,12 +151,18 @@ button.btn-2 a {
     font-size: 3.4rem;
   }
 
+  /* .font-icon{
+    position: relative;
+    bottom: 1350px;
+    margin-left: 0.1rem;
+  } */
+
   .showcase-btn a button.btn-1, .showcase-btn a button.btn-2{
     padding: 0.75rem 1.5rem;
   }
 
   .font-icon a i{
-    margin: 2.8rem 0 0 0;
+    margin: 1rem 0 0 0;
   }
   
 }
@@ -709,15 +716,17 @@ footer{
     /* margin: 0; */
   }
  
-  .font-icon{
+.font-icon{
     position: relative;
     bottom: 1350px;
     margin-left: 0.1rem;
   }
 
+
+
   /* .font-icon i{
     color: red;
-  } */
+  }  */
 
  
 
