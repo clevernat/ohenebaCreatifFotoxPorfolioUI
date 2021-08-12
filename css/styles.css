@@ -28,7 +28,8 @@ p, small{
 :root {
   --dark-color: #000;
   --light-color: #fff;
-  --light-white-color: #e8ebe9;
+  --light-white-color: #f8f8f8;
+  /* --light-white-color: #e8ebe9; */
   --sea-blue: #24e6f3;
   --blue: #1b43b6;
   --pink: #f561cd;
@@ -146,6 +147,7 @@ button.btn-2 a {
   
 }
 
+
 @media(max-width:321px){
   h1.showcase-name{
     font-size: 3.4rem;
@@ -162,7 +164,7 @@ button.btn-2 a {
   }
 
   .font-icon a i{
-    margin: 1rem 0 0 0;
+    margin: 2.5rem 0 0 0;
   }
   
   .feedback-text{
@@ -853,6 +855,4 @@ footer{
 
 .paginations a:hover:not(.active) {background-color: #ddd;}
 
-textarea::placeholder{
-  text-indent: 0.55rem;
-}
+
