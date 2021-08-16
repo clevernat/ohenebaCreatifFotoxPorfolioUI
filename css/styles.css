@@ -148,6 +148,7 @@ button.btn-2 a {
 }
 
 
+
 @media(max-width:321px){
   h1.showcase-name{
     font-size: 3.4rem;
@@ -366,9 +367,7 @@ hr.hr {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
+ 
 }
 
 .skills-headers h1 {
@@ -692,6 +691,14 @@ footer{
   }
 
 
+  .font-icon-main i{
+    position: relative;
+    font-size: 1.5rem;
+    left: 0.5rem;
+    color: var(--dark-color);
+  }
+
+
 
 
   .user-description{ 
@@ -756,6 +763,7 @@ footer{
   }
 
 
+
   .user-description{ 
     width: 100%;
     order: 2;
@@ -771,6 +779,13 @@ footer{
     position: relative;
     bottom: 810px;
     margin-left: 0.1rem;
+  }
+
+  .font-icon-main i{
+    position: relative;
+    font-size: 1.5rem;
+    left: 0.5rem;
+    color: var(--dark-color);
   }
 }
 
@@ -789,6 +804,15 @@ footer{
     bottom: 1325px;
     margin-left: 0.1rem;
   }
+
+  
+.font-icon-main i{
+  position: relative;
+  font-size: 1.5rem;
+  left: 0.5rem;
+  color: var(--dark-color);
+}
+
 
 }
 
