@@ -506,12 +506,14 @@ input[type='text'],input[type='email'], input[type='number'], textarea{
     border: 1px solid var(--dark-color);
     padding: 1rem;
   }
-
   
-
   
   .skills-header h1 {
     padding: 2rem 0 1rem 0;
+  }
+
+  .contact-btn{
+    width: 100%;
   }
 
 }
@@ -521,6 +523,12 @@ input[type='text'],input[type='email'], input[type='number'], textarea{
     padding: 2rem 0 1rem 0;
     
   }
+
+  
+  .contact-btn{
+    width: 100%;
+  }
+
 }
 
 
