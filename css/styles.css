@@ -454,6 +454,10 @@ hr.hr1 {
     height: 35vh;
   }
 
+  .card-text small{
+    font-size: 0.79rem;
+  }
+
   #projects {
     /* background: url("../images/pattern.jpg") no-repeat; */
     padding-top: 0.5rem;
